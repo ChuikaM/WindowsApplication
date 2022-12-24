@@ -1,4 +1,7 @@
 #include<iostream>
 int main() {
-	std::cout << "Hello, world";
+	std::cout << "Hello, world\n";
+	int i;
+	std::cin >> i;
+	std::cout << i;
 }
