@@ -24,6 +24,7 @@ int main() {
 		//std::cout << "x: " << lpp[0]->x << " y: " << lpp[0]->y;
 		//Sleep(100);
 	} while (GetKeyState(VK_ESCAPE) >= 0);
+
 	delete lpp;
 	return 0;
 }
